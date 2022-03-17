@@ -15,8 +15,9 @@ window.onscroll = () =>{
     loginForm.classList.remove('active');
 }
 
-var images = ['1.jpg', '7.jpg', '8.jpg', '4.jpg'];
+var images = ['./Images/1.jpg', './Images/7.jpg', './Images/8.jpg', './Images/4.jpg'];
     var num = 0;
+    var rotator=document.getElementById('rotator')
     var changeImage = function () {
         var len = images.length;
         rotator.src = images[num++];
@@ -24,4 +25,4 @@ var images = ['1.jpg', '7.jpg', '8.jpg', '4.jpg'];
             num = 0;
         }
     };
-    setInterval(changeImage, 5000);
+    setInterval(changeImage, 4000);

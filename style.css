@@ -254,7 +254,7 @@ div.cards h2{
   
   .login-form-container #form-close{
     position: absolute;
-    top:90px; right:33%;
+    top:110px; right:33%;
     font-size: 30px;
     color:#fff;
     cursor: pointer;
