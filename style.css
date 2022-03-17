@@ -1,0 +1,261 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+  }
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    text-decoration: none;
+    height: 60px;
+    font-size: 22px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 280px;
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+.credit{
+    border-top: 0.1rem solid rgba(255,255,255,.2)
+}
+
+footer .box-container .box h3 {
+    font-size: 20px;
+    padding: 5px 0
+}
+
+footer .box-container .box a {
+    display: block;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+footer .box-container .box p {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+footer{
+    background-color: #333;
+    padding: 20px 5%;
+}
+
+.home .content {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home .content h3 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+}
+
+.home .content p {
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 14px;
+    background: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border: 3px solid orange;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+div.card{
+    width: 400px;
+    box-shadow: 2px 2px 2px gray ;
+    margin: 10px;
+}
+#p-image{
+    width: 400px;
+    height: 280px;
+}
+p{
+    padding: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.heading span{
+    font-size: 30px;
+    background:rgba(255, 165, 0,.2);
+    color:orange;
+    border-radius: 10px;
+    padding:1px 6px;
+  }
+  
+  .heading span.space{
+    background:none;
+  }
+
+  header .logo span{
+    color:orange;
+  }
+  .stars{
+    color:orange;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  .price{
+      padding-left: 10px;
+  }
+
+  .btn:hover{
+    background:rgba(255, 165, 0,.2);
+    color:orange;
+  }
+
+  div.cards{
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+div.cards:hover{
+    box-shadow: 2px 2px 2px gray ;
+}
+
+#login-btn:hover{
+    color: orange;
+}
+
+div.cards i{
+    font-size: 80px;
+    color: lightsalmon;
+}
+
+div.cards h2{
+    padding-top: 10px;
+    color: orange;
+}
+
+.inputBox{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.login-form-container{
+    position: fixed;
+    top:-120%; left: 0;
+    z-index: 10000;
+    min-height: 100%;
+    width:100%;
+    background:rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-form-container.active{
+    top:0;
+  }
+
+  .login-form-container form{
+    margin: 60px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background: #fff;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-form-container form h3{
+    font-size: 30px;
+    color: #444;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px 0;
+  }
+  
+  .login-form-container form .box{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    color: #333;
+    margin: 8px 0;
+    border: 2px solid rgba(0,0,0,.3);
+    text-transform: none;
+  }
+
+  .login-form-container form .box:focus{
+    border-color: orange;;
+  }
+  
+  .login-form-container form #remember{
+    margin:30px 0;
+  }
+  
+  .login-form-container form label{
+    font-size: 17px;
+  }
+  
+  .login-form-container form .btn{
+    width:100%;
+  }
+  
+  .login-form-container form p{
+    padding:6px 0;
+    font-size: 16px;
+    color:#666;
+  }
+  
+  .login-form-container form p a{
+    color:orange;
+  }
+  
+  .login-form-container form p a:hover{
+    color:#333;
+    text-decoration: underline;
+  }
+  
+  .login-form-container #form-close{
+    position: absolute;
+    top:90px; right:33%;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+  }
