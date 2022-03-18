@@ -6,13 +6,23 @@
     text-decoration: none;
   }
 
+
+  .gallery{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .foot {
+    padding: 2rem 10px;
+  }
+
 header{
     display: flex;
     justify-content: space-evenly;
     background-color: #333;
     text-decoration: none;
     height: 60px;
-    font-size: 22px;
+    font-size: 18px;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -28,6 +38,7 @@ header nav a{
 .box-container{
     display: flex;
     justify-content: space-evenly;
+    margin: 20px;
     height: 280px;
     color: white;
 }
@@ -47,6 +58,9 @@ header nav a{
     border-top: 0.1rem solid rgba(255,255,255,.2)
 }
 
+
+
+
 footer .box-container .box h3 {
     font-size: 20px;
     padding: 5px 0
@@ -64,6 +78,8 @@ footer .box-container .box p {
 }
 
 footer{
+    display: inline-block;
+    width: 100%;
     background-color: #333;
     padding: 20px 5%;
 }
@@ -119,7 +135,7 @@ p{
 }
 
 .heading span{
-    font-size: 30px;
+    font-size: 50px;
     background:rgba(255, 165, 0,.2);
     color:orange;
     border-radius: 10px;
@@ -259,3 +275,7 @@ div.cards h2{
     color:#fff;
     cursor: pointer;
   }
+
+
+
+  
